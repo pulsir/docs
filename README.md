@@ -9,4 +9,7 @@ Feel free to contribute. When contributing, you give up all copyright on your wo
 
 
 We use this cronned command to pull docs: 
-''cd /home/pulsir/docs && git pull && chmod 755 *''
+
+```bash
+cd /home/pulsir/docs && git pull && chmod 755 *
+```
