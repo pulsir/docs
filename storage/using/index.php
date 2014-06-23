@@ -1,2 +1,3 @@
-<h1>Getting started with Pulsir</h1>
-<h4>Pulsir can be used as a hosted service at pulsir.eu, or you can get the source and host it yourself. In this category, we'll explore both ways.</h4>
+<?php die('Sorry, this isn\'t complete yet :('); ?>
+<h1>Using Robodoc</h1>
+<h5>This category explains Robodoc's architecture and how to use it. Don't worry, you'll be ready to go in 5 minutes.</h5>
