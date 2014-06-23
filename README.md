@@ -11,5 +11,5 @@ Feel free to contribute. When contributing, you give up all copyright on your wo
 We use this cronned command to pull docs: 
 
 ```bash
-cd /home/pulsir/docs && git pull && chmod 755 *
+cd /home/pulsir/docs && git stash && git pull && chmod 755 *
 ```
