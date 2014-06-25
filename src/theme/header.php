@@ -15,7 +15,7 @@
 <div class="nav_links"><a href="index.php">Documentation home</a></div>
 <div class="nav_links"><a href="index.php?file=start">Getting started</a></div>
 <div class="nav_links"><a href="index.php?file=using">Using Pulsir</a></div>
-<div class="nav_links"><a href="http://github.com/pulsir/pulsir">Pulsir on GitHub</a></div> 
+<div class="nav_links"><a href="index.php?file=legal">Legal</a></div>
 <div class="nav_links"><a href="index.php?file=contact" class="nav_button">Talk to a human</a></div>
         </div>
     </div>
