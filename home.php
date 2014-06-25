@@ -9,5 +9,5 @@
 <h3><a href="http://docs.pulsir.eu/index.php?file=legal">Legal</a></h3>
 <a href="http://docs.pulsir.eu/index.php?file=legal#f36a74956ef73c5a885c22d7ea8a1498"><i class="fa fa-chevron-right"></i> Copyright violation policy</a><br>
 <a href="http://docs.pulsir.eu/index.php?file=legal#08d30e35403e0e87f305ae08ff277e38"><i class="fa fa-chevron-right"></i> Privacy policy</a><br>
-<small>Subarticles: <a href="http://docs.pulsir.eu/index.php?file=legal#cp">Cookie policy</a>
+<small>Subarticles: <a href="http://docs.pulsir.eu/index.php?file=legal#cp">Cookie policy</a></small><br>
 <a href="http://docs.pulsir.eu/index.php?file=legal#b3a396d002e0b165bbae6719eea9d298"><i class="fa fa-chevron-right"></i> Terms of service </a><br>
