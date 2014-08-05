@@ -5,6 +5,7 @@
 
 <div class="changelog">
 <h3>Recent changes</h3>
+<p><a href="#change2">We now store IP addresses and some user data along with sessions, but you're able to delete that yourself. We also have a few changes and clarifications throughout the article</a></p>
 <p><a href="#change1">We now use Awstats for analytics.</a></p>
 <hr>
 </div>
@@ -22,16 +23,19 @@
 
 <p>We do take efforts to make sure the platform keeps working. This includes using your information, where necessary, to stop spam and other activities that violate the TOS. We also share your information when we are legally required to do so. Please read this privacy policy carefully. It describes what information we collect, how it is used, and when it is shared so you can make smart decisions about how you use Pulsir. We think it strikes a good balance and respects you -- our users -- who make this whole thing possible. Let us know what you think.</p>
 
+<p>Pulsir is a place to share your opinions, ideas, confessions, thoughts, experiences and pretty much whatever you want without any fear. <b>However</b>, Pulsir is not a place for illegal activities, threats and witch hunting, although it seems like a perfect place to do so. We take our users' and other people's security, health and emotions seriously and will try to limit such activities on Pulsir and report them, if possible, to a goverment body that deals with such actions. <b>Use Pulsir for good things, not for bad things.</b></p>
+ 
+
 <h3>Data we collect</h3>
 
 <p>When you create an account, you are required to provide a username and password and an email address. We do not log the IP address from which the account is created.</p>
 
-<p>The posts and comments you make on Pulsir are fully deleted, even if made to an archived or private post. This means that, by default, they are deleted from our servers (edit: on request) and will still be accessible after your account is deleted. (edit: unless you want us to delete them as well) Also, we only save the most recent version of comments and posts, so your previous edits, once overwritten or deleted by us, are no longer available or stored by us.</p>
+<p>The posts and comments you make on Pulsir are fully deleted, even if made to an archived or private post. This means that, by default, they are deleted from our servers on request (and yes, clicking a button is request) and will not be accessible after your account is deleted. (edit: unless you want us not to delete them [contact us in that case]) Also, we only save the most recent version of comments and posts, so your previous edits, once overwritten or deleted by us, are no longer available or stored by us.</p>
 
 
 
 <p><s>Pulsir does not use tools like Google Analytics. This means we don't know exactly how many people visit Pulsir, but that's something we'll live with, rather than allowing another company to store data about your Pulsir browsing habits - not gonna happen.</s><br><br><a id="change1"></a><span class="updated">Okay, this has changed and you really need to know about it. We now use Awstats to analyze data, and while it does log a few things we'd rather not log (like unresolved IP's), it's a great tool and lets us know about errors that happen and how many people visit and use Pulsir. We thought about developing our own analytics tool, but it'd take quite a lot of time and effort. Still, there's a chance that we'll move to a more privacy-aware tool.</span> <br><br><br>
-Pulsir does not store IP addresses associated with specific posts, comments, and private messages.</p>
+Pulsir does not store IP addresses associated with specific posts, comments, and private messages. <b><a id="change2"></a><span class="updated">However, we store IP addresses associated with sessions, but they are removed when you log out of a session, some time after the session expires (we delete old sessions semi-automatically) or for all session when you delete your account. Your IP address is not and will not be released publicly and is only used for session validation. We also store your user agent (which can be spoofed, we don't care, we just use it for session validation) and the UNIX timestamp when the session is generated so we can make it expire properly. </span> </p>
 
 <p>As you interact with Pulsir as an accountholder, we save certain information about these interactions and your preferences. To see a list of what we store, you may request a dump of parts of our database. For cookies, please use your browsers element inspector or cookie browser.</p>
 
@@ -41,11 +45,11 @@ Pulsir does not store IP addresses associated with specific posts, comments, and
 
 <p>Your private information is never for sale. This means that we will only share your personal data with your consent, and after letting you know what information will be shared and with whom, unless it is otherwise permitted in this policy. We do not sell or otherwise give access to any information collected about our users to any third party.</p>
 
-<p>Anonymous, aggregated information that cannot be linked back to an individual user may be made available to third parties or public. (edit: To clarify, this means browsing figures, bandwidth usage data, number of people using a specific tag -- general, numerical data about Pulsir, <b>not you</b>.)</p>
+<p>Anonymous, aggregated information that cannot be linked back to an individual user may be made available to third parties or public. To clarify, this means browsing figures, bandwidth usage data, number of people using a specific tag -- general, numerical data about Pulsir, <b>not you</b>.</p>
 
-<p>Pulsir will not disclose your information unless requested by law. We may disclose or preserve for future disclosure your information if we believe, after due consideration, that doing so is reasonably necessary to comply with a law, regulation, or legal request. If we are going to release your information, we will do our best to provide you with notice in advance via email unless we are prohibited by court order from doing so. (Fuck you, NSA)</p>
+<p>Pulsir will not disclose your information unless requested by law. We may disclose or preserve for future disclosure your information if we believe, after due consideration, that doing so is reasonably necessary to comply with a law, regulation, or legal request. If we are going to release your information, we will do our best to provide you with a notice in advance via email unless we are prohibited by court order from doing so. (F[**]k you, NSA)</p>
 
-<p>Your information may be disclosed by us in an emergency or to keep our services running.<br> Other extraordinary circumstances may require disclosure: we may also disclose your information when we believe it's necessary to prevent imminent and serious bodily harm to a person; to address fraud, security, or spam; or to protect our rights or property.</p>
+<p>Your information may be disclosed by us in an emergency or to keep our services running.<br> Other extraordinary circumstances may require disclosure: we may also disclose your information when we believe it's necessary to prevent imminent and serious bodily harm to a person or a group of people; to address fraud, security, or spam; or to protect our rights or property. We'll do our best to provide you with a notice via email.</p>
 
 <h3><a id="cp"></a>Cookie policy</h4>
 
@@ -58,23 +62,26 @@ When you log into your account, Pulsir will place a few cookies for the sole pur
 <p><b>pllgroup</b> The group you're in, stays there for 3 days after your login. </p>
 <p><b>expon</b> When you log in, we set a cookie with the time of your login (UNIX timestamp) and it stays on your computer for 3 days. </p>
 <p><b>psession</b> When you log in, we set a cookie with a hash of your login data and it stays on your computer for 3 days. </p>
-<p><i>The plluser, pllgroup, expon, psession cookies are removed on logout.</i></p>
+<p><b>psid</b> A unique session ID we generate on login, stays on your computer for 3 days.</p>
+<p><b>pllsessionid</b> A session specific CSRF token, similar to pcsrfitoken for logged out users, but stays there as long as the session stays, that being 3 days.</p>
+<p><b>psession</b> A unique session identifier and validator we generate on login and stays there for 3 days. <!-- if you're technical and wondering wtf do I mean by this, it means that the cookie is used for validating sessions, it's a hash storing a lot of the things we store as cookies with a user-specific salt --></p>
+<p><i>The plluser, pllgroup, expon, psession, psid cookies are removed on logout.</i></p>
 <p><b>pllsession</b> When you visit Pulsir, we put a randomly generated hash to make sure you don't get attacked by horrible people. It stays there for 2700 seconds from each visit. </p>
 <p><b>pcsrfitoken</b> When you do something on Pulsir, we put a cookie used to verify you haven't been tricked into doing it. It stays there for 2700 seconds from each such action. </p>
 <p><b>pat</b> When you post to Pulsir, we store the UNIX timestamp of the time you started writing for 2700 seconds. </p>
 
-<p>Most browsers include an option to clear existing cookies or reject new ones. However, if you do this, portions of the Pulsir website may not function as intended.</p>
+<p>Most browsers include an option to clear existing cookies or reject new ones. However, if you do this, portions of the Pulsir website may not function as intended. You are free to do so, but it will substantially limit your abilities on Pulsir and that you won't be able to submit any forms due to CSRF protection, so you won't be able to post or change your details... or pretty much do anything that has to do with user action. </p>
 
 <h3>Account deletion</h3>
 
-<p>You may choose to delete your Pulsir account at any time. The usernames associated with deleted accounts remain unavailable for others to use, and your public profile is no longer visible to users of the site. However, the posts and content you made during your tenure as a Pulsir user will not be automatically deleted as part of the account removal process, and your username won't be publicly disassociated with all posts.
+<p>You may choose to delete your Pulsir account at any time. The usernames associated with deleted accounts remain unavailable for others to use, and your public profile is no longer visible to users of the site. However, the posts and content you made during your tenure as a Pulsir user will be automatically deleted as part of the account removal process.
 third party sites</p>
 
-<p>Certain third party sites may offer users the option to log in using their Pulsir account (for example, Pulsir's own moderator panel). This option is only an authentication tool and does not transmit any new personal information to Pulsir, from Pulsir to that site (except username and error code),Â Â or give Pulsir access to details of subsequent actions taken on these sites.</p>
+<p>Certain third party sites may offer users the option to log in using their Pulsir account (for example, Pulsir's own moderator panel uses this). This option is only an authentication tool and does not transmit any new personal information to Pulsir, from Pulsir to that site (except username, group and error code, as well as other requested information that you'll be informed of), or give Pulsir access to details of subsequent actions taken on these sites.</p>
 
 <h3>Data security</h3>
 
-<p>Pulsir will make every effort to secure any private information submitted to us by our users. However, no data transmission over the internet is completely secure, so we cannot guarantee the absolute security of this data. You use the service at your own risk, and are responsible for taking reasonable measures to secure your account (such as carefully maintaining the secrecy of your password).</p>
+<p>Pulsir will make every effort to secure any private information submitted to us by our users. However, no data transmission over the internet is completely secure, so we cannot guarantee the absolute security of this data. You use the service at your own risk, and are responsible for taking reasonable measures to secure your account (such as carefully maintaining the secrecy of your password). If something does happen, we'll try to fix it as soon as possible and will take action such as revoking session manually, disabling logins, password resets, signups or account deletion temporarily if needed. </p>
 
 <h3>International visitors</h3>
 
@@ -88,5 +95,5 @@ third party sites</p>
 
 <h3>Contact</h3>
 
-<p>Pulsir welcomes questions, concerns, and feedback about this policy. Please feel free to drop us an email (it's say.hello@pulsir.eu) or leave a comment.</p>
+<p>Pulsir welcomes questions, concerns, and feedback about this policy. Please feel free to drop us an email (it's say.hello@pulsir.eu) or <a href="index.php?file=contact">talk to a human</a>a>.</p>
 </article>
