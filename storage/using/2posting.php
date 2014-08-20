@@ -1,0 +1,3 @@
+<h3>Posting to Pulsir</h3>
+<p>To post to Pulsir, you need to be logged in. If you are, you'll see a + icon in the navigation bar on an orange background. This opens the post editor with a new post. Add a title if you want and a tag (both of those aren't required). You can also edit post settings if you want. When that's done, just click in the <i>Type away...</i> and, well, type away. You can format your posts using Markdown and to edit them after publishing, open up the post to read it and click on <i>update post</i> or <i>delete post</i>.</p>
+<p>To publish your post, click on <i>Publish</i> and you'll be redirected to the published post.</p>
