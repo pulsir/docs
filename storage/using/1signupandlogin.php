@@ -1,0 +1,6 @@
+<h3>Sign up and login</h3>
+<p>To sign up, click on Sign up or fill out the Get started form on Pulsir.</p>
+<p>You can also directly sign up on [the signup page](http://pulsir.eu/signup)</p>
+<p>You need to enter <b>a username</b> -- this will be your profile URL (http://pulsir.eu/mark if mark is your username) and can't be changed later, <b>a password</b> which you'll use to log in (don't worry, it's safe with us) and <b>an email address</b> so that we can contact you. We don't spam and only email you if there's something important. It <i>can</i> be fake, as we don't check or require validation, but we recommend using a proper email address so that you don't get locked out of your account if it's compromised.</p>
+<p>To log in, click on Log in and enter your <b>username</b> and <b>password</b>. You can't log in with your email currently, although that might change in the future.</p>
+<p>To reset your password if you've forgotten it, click on <i>Trouble logging in? Contact us.</i> and someone from our support team will get in touch with you and help you change your password. Right now, for various reasons, including security, we aren't able to automatically reset your password. Instead, we'll send you instructions on how to reset your password.</p>
