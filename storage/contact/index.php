@@ -1,8 +1,5 @@
 <h2>Need help? <b>We're here for you.</b></h2>
-<p>Be short and direct. 140 characters or less is awesome.</p>
-<script type="text/javascript" src="http://assets.freshdesk.com/widget/freshwidget.js"></script>
-<style type="text/css" media="screen, projection">
-	@import url(http://assets.freshdesk.com/widget/freshwidget.css); 
-</style> 
-<iframe class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="http://pulsirsupport.freshdesk.com/widgets/feedback_widget/new?&widgetType=embedded&formTitle=Talk+to+a+human&submitThanks=Lookin'+great.+We'll+reply+as+soon+as+we+can.&screenshot=no&attachFile=no&searchArea=no" scrolling="no" height="500px" width="100%" frameborder="0" >
-</iframe>
+<p>Be short and direct. If it's less than a tweet's length, we'll give you a badge.</p>
+<!-- Start of Inbox Widget script -->
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("//assets.zendesk.com/embeddable_framework/main.js","pulsir.zendesk.com");/*]]>*/</script>
+    <!-- End of Inbox Widget script -->
