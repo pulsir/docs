@@ -1,4 +1,5 @@
 <?php
+die(header('Location: http://pulsirsupport.zendesk.com'));
 error_reporting(E_ALL);
 require_once 'src/robodoc.php';
 $robodoc = new robodoc();
